@@ -16,8 +16,8 @@ class Paper{
         var pos = this.body.position;
         var angle = this.body.angle;
         push()
-			translate(paperpos.x, paperpos.y);
-			rectMode(CENTER)
+	translate(pos.x, pos.y);
+	rectMode(CENTER)
         fill("white");
         rotate(angle);
         imageMode(CENTER);

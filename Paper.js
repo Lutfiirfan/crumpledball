@@ -16,7 +16,6 @@ class Paper{
         var pos = this.body.position;
         var angle = this.body.angle;
         
-\
 	rectMode(CENTER)
         fill("white");
         rotate(angle);

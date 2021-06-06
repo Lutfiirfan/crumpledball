@@ -13,11 +13,11 @@ class Dustbin{
         var pos = this.body.position;
         var angle = this.body.angle;
         push();
-       // translate(pos.x, pos.y);
+        fill(255)
       rotate(angle);
-      //rectMode(CENTER);
-      fill(255)
-         rect(0, 0, this.width, this.height);
+      imageMode(CENTER)
+   
+        image(this.image,pos.x, this.pos.y, 33,33);
         pop()
       }
 }

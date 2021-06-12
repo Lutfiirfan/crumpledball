@@ -12,9 +12,10 @@ class Dustbin{
     {
      
         var pos =this.body.position;
-        
+        push()
         rectMode(CENTER);
         fill(255, 255, 255, 0.5);
         rect(pos.x, pos.y, this.width, this.height);
+        pop()
       }
 }

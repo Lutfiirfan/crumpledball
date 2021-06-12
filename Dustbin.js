@@ -10,14 +10,11 @@ class Dustbin{
     };
     display()
     {
-        var pos = this.body.position;
-        var angle = this.body.angle;
-        push();
-        fill(255)
-      rotate(angle);
-      imageMode(CENTER)
-   
-        image(this.image,pos.x, this.pos.y, 33,33);
-        pop()
+     
+        var pos =this.body.position;
+        
+        rectMode(CENTER);
+        fill(255, 255, 255, 0.5);
+        rect(pos.x, pos.y, this.width, this.height);
       }
 }
